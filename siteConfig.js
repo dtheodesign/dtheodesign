@@ -1,10 +1,10 @@
 const siteConfig = {
-  name: 'Clay',
-  shortName: 'Clay',
-  description: 'Clay - Personal Gatsby Theme',
+  name: 'DTheo',
+  shortName: 'DTheo',
+  description: 'DTheo - Interior design',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
-  author: 'Travis Lord & Abdul Waqar',
+  author: 'DT',
   twitter: '' ,
   facebook:'',
   github:'',
