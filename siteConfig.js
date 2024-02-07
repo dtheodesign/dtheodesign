@@ -1,7 +1,7 @@
 const siteConfig = {
-  name: 'DTheo',
-  shortName: 'DTheo',
-  description: 'DTheo - Interior design',
+  name: 'DTheoDesign',
+  shortName: 'DTheoDesign',
+  description: 'DTheoDesign - Interior design',
   url: '/', // Domain of your site without prefix!
   prefix: '/',
   author: 'DT',
