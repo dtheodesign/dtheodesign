@@ -5,9 +5,8 @@ const siteConfig = {
   url: '/', // Domain of your site without prefix!
   prefix: '/',
   author: 'DT',
-  twitter: '' ,
-  facebook:'',
-  github:'',
+  instagram: 'td.interiordesign' ,
+  behance:'despinatheo-designer',
   manifest_icon:`src/img/vase.png`,
   image:`/vase.png`
 

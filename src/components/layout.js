@@ -42,9 +42,6 @@ const Layout = props => {
               <li className={`nav-home  ${data.pathname.includes('/contact') ? 'nav-current' : ""} `} role="menuitem">
                 <Link to={`/contact`}>Contact</Link>
               </li>
-              <li className={`nav-home  ${data.pathname.includes('/elements') ? 'nav-current' : ""} `} role="menuitem">
-                <Link to={`/elements`}>Elements</Link>
-              </li>
             </ul>
           </nav>
           <div className="site-head-center">
@@ -55,32 +52,21 @@ const Layout = props => {
           <div className="site-head-right">
             <div className="social-links">
               <Link
-                to={`https://facebook.com/${social.facebook}`}
-                title="Facebook"
+                to={`https://www.behance.net/${social.behance}`}
+                title="Behance"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Behance
               </Link>
               <Link
-                to={`https://instagram.com/${social.twitter}`}
+                to={`https://instagram.com/${social.instagram}`}
                 title="Instagram"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Instagram
               </Link>
-
-              
-              <Link
-                to={`https://github.com/lilxyzz/gatsby-clay`}
-                title="Github"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Github
-              </Link>
-
               
             </div>
           </div>
@@ -93,15 +79,6 @@ const Layout = props => {
       </main>
       <footer className="site-foot">
         &copy; {new Date().getFullYear()} <Link to={`/`}>{title}</Link> &mdash;
-        Built with {""}
-        <a
-          href="https://gatsbyjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Gatsby
-        </a>
-         
       </footer>
     </div>
   )
