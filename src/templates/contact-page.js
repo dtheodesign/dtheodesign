@@ -187,8 +187,8 @@ const indexQuery = graphql`
       siteMetadata {
         title
         social{
-          twitter
-          facebook
+          behance
+          instagram
         }
       }
     }

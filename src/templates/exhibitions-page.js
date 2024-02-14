@@ -52,8 +52,8 @@ query IndexPage {
       title
       author
       social{
-        twitter
-        facebook
+        behance
+        instagram
       }
     }
   }

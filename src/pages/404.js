@@ -32,8 +32,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         social{
-          twitter
-          facebook
+          behance
+          behance
         }
       }
     }

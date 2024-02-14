@@ -58,19 +58,19 @@ function SEO({ description, lang, meta, keywords, title, image }) {
           content: `website`,
         },
         {
-          name: `twitter:card`,
+          name: `behance:card`,
           content: `summary`,
         },
         {
-          name: `twitter:creator`,
+          name: `behance:creator`,
           content: site.siteMetadata.author,
         },
         {
-          name: `twitter:title`,
+          name: `behance:title`,
           content: title,
         },
         {
-          name: `twitter:description`,
+          name: `behance:description`,
           content: metaDescription,
         },
       ]

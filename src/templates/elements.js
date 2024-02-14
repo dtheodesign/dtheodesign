@@ -549,8 +549,8 @@ export const BioPageQuery = graphql`
         siteMetadata {
           title
           social{
-            twitter
-            facebook
+            behance
+            instagram
           }
         }
       }
